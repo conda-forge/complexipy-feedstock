@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.2.0"
+  version: "5.3.0"
 
 package:
   name: complexipy
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/complexipy/complexipy-${{ version }}.tar.gz
-  sha256: 3eee6916cf2acab5e247abfc75d09610b24fd370e45903810f1f33d20914e0c1
+  sha256: b60b60c24b5f4e4eca1dd18f145f41f428c607c40477305b4f8302726b3e1eb6
 
 build:
-  number: 1
+  number: 0
   script:
     - if: win
       then: git config --system core.longpaths true
