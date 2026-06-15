@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.5.0"
+  version: "5.6.0"
 
 package:
   name: complexipy
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/complexipy/complexipy-${{ version }}.tar.gz
-  sha256: c6d85ce28c0e8257a0a2caf644b51094438750ee34d6140f9da8859278b70fe5
+  sha256: fecd743afc3fb84f1cc4dbfd5c02167517257e9cff9b8150a6100b3b5977fbc4
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - git
   host:
     - python
-    - maturin >=1.4,<2.0
+    - maturin >=1.9.4,<2.0
     - pip
   run:
     - python
