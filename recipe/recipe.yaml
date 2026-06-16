@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.6.0"
+  version: "5.6.1"
 
 package:
   name: complexipy
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/complexipy/complexipy-${{ version }}.tar.gz
-  sha256: fecd743afc3fb84f1cc4dbfd5c02167517257e9cff9b8150a6100b3b5977fbc4
+  sha256: c87e931e648eddab5f4b9eb1fcbbc7cf6de5840f7d8d65b6ae49364b0d9b561d
 
 build:
   number: 0
