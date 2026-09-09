@@ -12,7 +12,7 @@ source:
   sha256: 1739c0781a50ae590eaa74d6362c505b8a6b3a5a87e1a3599f4790a84f6d3331
 
 build:
-  number: 0
+  number: 1
   script:
     - if: win
       then: git config --system core.longpaths true
